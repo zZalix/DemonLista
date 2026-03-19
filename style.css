@@ -1,0 +1,111 @@
+:root {
+    /* Palette professionale (Dark Slate Theme) */
+    --bg-page: #0D1117;         /* Sfondo generale della pagina */
+    --bg-panel: #161B22;        /* Sfondo dei contenitori (ex --bg-white) */
+    --bg-element: #21262D;      /* Sfondo di liste, card, barre di ricerca */
+    
+    --border-color: #30363D;    /* Bordi visibili ma non fastidiosi */
+    
+    --text-primary: #E6EDF3;    /* Testo principale (bianco panna, non affatica la vista) */
+    --text-secondary: #8B949E;  /* Testo secondario e sottotitoli */
+    
+    --accent-blue: #58A6FF;     /* Blu più leggibile e professionale */
+    --active-bg: rgba(88, 166, 255, 0.1); /* Sfondo elemento attivo (blu trasparente) */
+    --hover-bg: #282E33;        /* Colore hover per le righe */
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Montserrat', sans-serif; }
+
+body { background-color: var(--bg-page); color: var(--text-primary); overflow-x: hidden; }
+
+/* Sfondo Mappa */
+.map-bg {
+    position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/8/80/World_map_-_low_resolution.svg');
+    background-size: cover; background-position: center; opacity: 0.05; z-index: -3;
+}
+
+/* Sfondi Animati (Quadrati Blu) */
+.side-squares {
+    position: fixed; top: 0; height: 100vh; width: 18vw; z-index: -1; 
+}
+#left-squares { left: 0; }
+#right-squares { right: 0; }
+.blue-square { position: absolute; }
+
+/* Navbar */
+.navbar { background-color: var(--bg-panel); box-shadow: 0 2px 10px rgba(0,0,0,0.2); position: relative; z-index: 10; border-bottom: 1px solid var(--border-color); }
+.nav-content { max-width: 1200px; margin: 0 auto; display: flex; justify-content: center; align-items: center; padding: 15px 20px; }
+.logo { font-weight: 900; font-size: 2rem; letter-spacing: -1px; color: var(--text-primary); }
+
+/* Contenitore e Box tratteggiato */
+.container { max-width: 1000px; margin: 40px auto; position: relative; z-index: 1; }
+.dashed-box { background-color: var(--bg-panel); border: 1px dashed var(--border-color); box-shadow: 0 4px 20px rgba(0,0,0,0.3); }
+
+/* Main Viewer Layout */
+.main-viewer { padding: 25px; }
+.viewer-header { border-bottom: 1px dashed var(--border-color); padding-bottom: 15px; margin-bottom: 20px; text-align: center; }
+.viewer-header h2 { font-size: 1.4rem; font-weight: 700; color: var(--text-primary); }
+.viewer-header span { font-size: 0.8rem; vertical-align: middle; color: var(--text-secondary); }
+
+.viewer-content { display: flex; gap: 0; }
+
+/* --- COLONNA SINISTRA (Lista) --- */
+.list-column { width: 320px; padding-right: 25px; display: flex; flex-direction: column; background: var(--bg-panel); }
+
+.search-bar { display: flex; align-items: center; border: 1px solid var(--border-color); padding: 8px 12px; margin-bottom: 15px; background: var(--bg-element); border-radius: 4px; }
+.search-bar input { border: none; background: transparent; outline: none; width: 100%; margin: 0 10px; font-size: 0.85rem; color: var(--text-primary); }
+.search-bar input::placeholder { color: var(--text-secondary); }
+.search-icon { font-size: 0.9rem; color: var(--text-secondary); }
+.clear-icon { font-size: 0.8rem; cursor: pointer; color: var(--text-secondary); }
+
+.player-list { border: 1px solid var(--border-color); background: var(--bg-element); height: 400px; overflow-y: auto; border-radius: 4px; }
+
+/* Stile Riga Giocatore */
+.player-row { 
+    display: flex; justify-content: space-between; align-items: center; 
+    padding: 12px 15px; font-size: 0.85rem; cursor: pointer; 
+    border-bottom: 1px solid var(--border-color); transition: background 0.15s ease; 
+}
+.player-row:last-child { border-bottom: none; }
+.player-row:hover { background-color: var(--hover-bg); }
+.player-row.active { background-color: var(--active-bg); border-left: 3px solid var(--accent-blue); padding-left: 12px; }
+
+.row-left { display: flex; align-items: center; gap: 8px; }
+.player-rank { font-weight: 700; width: 20px; color: var(--text-secondary); }
+.player-flag { font-size: 0.65rem; font-weight: 700; color: var(--text-secondary); }
+.player-name { font-weight: 700; color: var(--text-primary); }
+.player-score { font-style: italic; color: var(--text-secondary); font-size: 0.8rem; }
+
+/* Pulsanti Previous/Next */
+.pagination { display: flex; justify-content: space-between; margin-top: 15px; }
+.pagination button { border: none; background: none; font-weight: 900; font-size: 0.85rem; cursor: pointer; color: var(--text-primary); transition: color 0.15s ease; }
+.pagination button:hover { color: var(--accent-blue); }
+
+/* --- COLONNA DESTRA (Dettagli) --- */
+.details-column { 
+    flex: 1; min-height: 400px; 
+    border-left: 1px dashed var(--border-color); 
+    padding-left: 25px; display: flex; flex-direction: column; 
+    background: var(--bg-panel);
+}
+
+/* Header Dettagli (Nome e Punteggio) */
+.details-header { display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--border-color); padding-bottom: 15px; margin-bottom: 25px; }
+.details-title h1 { font-size: 2.2rem; font-weight: 900; text-transform: uppercase; color: var(--text-primary); display: flex; align-items: center; gap: 10px; letter-spacing: -1px; }
+.details-title .it-text { font-size: 1rem; font-weight: 700; color: var(--text-secondary); }
+.details-subtitle { color: var(--text-secondary); font-size: 0.85rem; font-weight: 700; margin-top: 5px; text-transform: uppercase; letter-spacing: 0.5px; }
+
+.details-score { text-align: right; }
+.details-score h2 { font-size: 2.2rem; color: var(--accent-blue); font-weight: 900; letter-spacing: -1px; }
+.details-score p { color: var(--text-secondary); font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; }
+
+/* Sezione Hardest Demon */
+.records-section h3 { font-size: 1rem; font-weight: 700; color: var(--text-primary); margin-bottom: 15px; border-bottom: 1px dashed var(--border-color); padding-bottom: 8px; text-transform: uppercase; }
+.record-card { 
+    background: var(--bg-element); border: 1px solid var(--border-color); 
+    padding: 15px 20px; display: flex; justify-content: space-between; align-items: center; border-radius: 4px;
+}
+.record-name { font-weight: 700; font-size: 1.1rem; color: var(--text-primary); margin-bottom: 3px; }
+.record-rank { font-size: 0.85rem; color: var(--text-secondary); font-style: italic; }
+.record-hz { font-weight: 700; color: var(--accent-blue); font-size: 0.9rem; }

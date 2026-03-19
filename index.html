@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stats Viewer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;0,900;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Sfondi (Mappa e Quadrati Blu) -->
+    <div class="map-bg"></div>
+    <div id="left-squares" class="side-squares"></div>
+    <div id="right-squares" class="side-squares"></div>
+
+    <!-- Barra di navigazione pulita (Solo STATSVIEWER) -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">STATSVIEWER</div>
+        </div>
+    </nav>
+
+    <!-- Contenuto Principale -->
+    <main class="container">
+        <section class="main-viewer dashed-box">
+            
+            <div class="viewer-header">
+                <h2>Stats Viewer - International <span>▼</span></h2>
+            </div>
+            
+            <div class="viewer-content">
+                
+                <!-- Colonna di Sinistra: Lista Giocatori -->
+                <div class="list-column">
+                    <div class="search-bar">
+                        <span class="search-icon">🔍</span>
+                        <input type="text" id="searchInput" placeholder="Enter to search...">
+                        <span class="clear-icon" id="clearSearch">✖</span>
+                    </div>
+                    
+                    <div class="player-list" id="playerList">
+                        <!-- Generato da script.js -->
+                    </div>
+                    
+                    <div class="pagination">
+                        <button>PREVIOUS</button>
+                        <button>NEXT</button>
+                    </div>
+                </div>
+
+                <!-- Colonna di Destra: Dettagli Giocatore -->
+                <div class="details-column" id="detailsArea">
+                    <!-- Generato da script.js -->
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
