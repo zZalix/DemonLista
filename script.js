@@ -17,7 +17,7 @@ const playersData =[
         hardest: { demon: '?', hz: '144hz' }
     },
      { 
-        rank: 5, flagText: 'IT', name: 'un1verso_', score: '10', state: 'ITALY',
+        rank: 5, flagText: 'IT', name: 'un1verso_', score: '20', state: 'ITALY',
         hardest: { demon: 'iSpyWithMyLittleEye', hz: '165hz' }
     },
     { 
