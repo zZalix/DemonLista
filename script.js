@@ -1,33 +1,34 @@
 // Database dei giocatori - SOLO il livello più difficile
 const playersData =[
     { 
-        rank: 1, flagText: 'IT', name: 'zZalix', score: '8268.84', state: 'ITALY',
-        hardest: { demon: 'Skeletal', hz: '144hz' }
+        rank: 1, flagText: 'IT', name: 'zZalix', score: '290', state: 'ITALY',
+        hardest: { demon: 'Nine Circles', hz: '144hz' }
     },
     { 
-        rank: 2, flagText: 'IT', name: 'robZeph', score: '5394.85', state: 'ITALY',
-        hardest: { demon: 'Deadlocked', hz: '165hz' }
+        rank: 2, flagText: 'IT', name: 'robZeph', score: '120', state: 'ITALY',
+        hardest: { demon: '?', hz: '165hz' }
     },
     { 
-        rank: 3, flagText: 'IT', name: 'Zlem', score: '4726.36', state: 'ITALY',
-        hardest: { demon: 'Flashbang', hz: '144hz' }
+        rank: 3, flagText: 'IT', name: 'klockish', score: '70', state: 'ITALY',
+        hardest: { demon: 'Ystep', hz: '240hz' }
     },
     { 
-        rank: 4, flagText: 'IT', name: 'un1verso_', score: '4600.91', state: 'ITALY',
+        rank: 4, flagText: 'IT', name: 'Zlem', score: '60', state: 'ITALY',
+        hardest: { demon: '?', hz: '144hz' }
+    },
+     { 
+        rank: 5, flagText: 'IT', name: 'un1verso_', score: '10', state: 'ITALY',
         hardest: { demon: 'iSpyWithMyLittleEye', hz: '165hz' }
     },
     { 
-        rank: 5, flagText: 'IT', name: 'klockish', score: '3733.45', state: 'ITALY',
-        hardest: { demon: 'the nightmare', hz: '240hz' }
+        rank: 6, flagText: 'IT', name: 'MainSciamn', score: '10', state: 'ITALY',
+        hardest: { demon: 'Platinum Adventure', hz: '165hz' }
     },
     { 
-        rank: 6, flagText: 'IT', name: 'gabryX2', score: '3200.45', state: 'ITALY',
-        hardest: { demon: 'sunshine', hz: '165hz' }
+        rank: 7, flagText: 'IT', name: 'gabryX2', score: '0', state: 'ITALY',
+        hardest: { demon: 'Dash', hz: '360hz' }
     },
-    { 
-        rank: 7, flagText: 'IT', name: 'ItzRealKamal', score: '3000.28', state: 'ITALY',
-        hardest: { demon: '?', hz: '165hz' }
-    },
+    
 ];
 
 const playerListContainer = document.getElementById('playerList');
