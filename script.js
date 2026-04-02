@@ -1,7 +1,7 @@
 // Database dei giocatori - SOLO il livello più difficile
 const playersData =[
     { 
-        rank: 1, flagText: 'IT', name: 'zZalix', score: '290', state: 'ITALY',
+        rank: 1, flagText: 'IT', name: 'zZalix', score: '300', state: 'ITALY',
         hardest: { demon: 'Nine Circles', hz: '144hz' }
     },
     { 
