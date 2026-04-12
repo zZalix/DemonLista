@@ -5,28 +5,28 @@ const playersData =[
         hardest: { demon: 'Nine Circles', hz: '144hz' }
     },
     { 
-        rank: 2, flagText: 'IT', name: 'robZeph', score: '120', state: 'ITALY',
+        rank: 2, flagText: 'IT', name: 'klockish', score: '125', state: 'ITALY',
+        hardest: { demon: 'B', hz: '240hz' }
+    },
+    { 
+        rank: 3, flagText: 'IT', name: 'robZeph', score: '120', state: 'ITALY',
         hardest: { demon: '?', hz: '165hz' }
     },
     { 
-        rank: 3, flagText: 'IT', name: 'klockish', score: '70', state: 'ITALY',
-        hardest: { demon: 'Ystep', hz: '240hz' }
-    },
-    { 
-        rank: 4, flagText: 'IT', name: 'Zlem', score: '60', state: 'ITALY',
-        hardest: { demon: '?', hz: '144hz' }
+        rank: 4, flagText: 'IT', name: 'UniversoMC', score: '75', state: 'ITALY',
+        hardest: { demon: 'Skeletal Shenanigans', hz: '165hz' }
     },
      { 
-        rank: 5, flagText: 'IT', name: 'un1verso_', score: '20', state: 'ITALY',
-        hardest: { demon: 'iSpyWithMyLittleEye', hz: '165hz' }
+        rank: 5, flagText: 'IT', name: 'zleemm', score: '70', state: 'ITALY',
+        hardest: { demon: 'FlashBang', hz: '144hz' }
     },
     { 
-        rank: 6, flagText: 'IT', name: 'MainSciamn', score: '10', state: 'ITALY',
-        hardest: { demon: 'Platinum Adventure', hz: '165hz' }
+        rank: 6, flagText: 'IT', name: 'b0bX2', score: '30', state: 'ITALY',
+        hardest: { demon: 'Platinum Adventure', hz: '360hz' }
     },
     { 
-        rank: 7, flagText: 'IT', name: 'gabryX2', score: '0', state: 'ITALY',
-        hardest: { demon: 'Dash', hz: '360hz' }
+        rank: 7, flagText: 'IT', name: 'mainsciamn', score: 'DISQUALIFIED FOR BEING LEADERBOARD BANNED', state: 'ITALY',
+        hardest: { demon: 'DISQUALIFIED', hz: '165hz' }
     },
     
 ];
