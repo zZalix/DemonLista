@@ -1,3 +1,4 @@
+
 const playersData =[
     { 
         rank: 1, flagText: 'IT', name: 'zZalix', score: '300', state: 'ITALY',
