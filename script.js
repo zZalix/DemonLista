@@ -4,12 +4,12 @@ const playersData =[
         hardest: { demon: 'Nine Circles', hz: '144hz' }
     },
     { 
-        rank: 2, flagText: 'IT', name: 'klockish', score: '125', state: 'ITALY',
-        hardest: { demon: 'B', hz: '240hz' }
+        rank: 2, flagText: 'IT', name: 'robZeph', score: '185', state: 'ITALY',
+        hardest: { demon: 'tower descent', hz: '360hz' }
     },
     { 
-        rank: 3, flagText: 'IT', name: 'robZeph', score: '120', state: 'ITALY',
-        hardest: { demon: '?', hz: '165hz' }
+        rank: 3, flagText: 'IT', name: 'klockish', score: '125', state: 'ITALY',
+        hardest: { demon: 'B', hz: '240hz' }
     },
     { 
         rank: 4, flagText: 'IT', name: 'UniversoMC', score: '75', state: 'ITALY',
