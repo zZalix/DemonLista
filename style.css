@@ -35,7 +35,7 @@ body { background-color: var(--bg-page); color: var(--text-primary); overflow-x:
 
 /* Navbar */
 .navbar { background-color: var(--bg-panel); box-shadow: 0 2px 10px rgba(0,0,0,0.2); position: relative; z-index: 10; border-bottom: 1px solid var(--border-color); }
-.nav-content { max-width: 1200px; margin: 0 auto; display: flex; justify-content: center; align-items: center; padding: 15px 20px; }
+.nav-content { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; padding: 15px 20px; }
 .logo { font-weight: 900; font-size: 2rem; letter-spacing: -1px; color: var(--text-primary); }
 
 /* Contenitore e Box tratteggiato */
