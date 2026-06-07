@@ -1,8 +1,8 @@
 
 const playersData =[
     { 
-        rank: 1, flagText: 'IT', name: 'zZalix', score: '300', state: 'ITALY',
-        hardest: { demon: 'Nine Circles', hz: '144hz' }
+        rank: 1, flagText: 'IT', name: 'zZalix', score: '525', state: 'ITALY',
+        hardest: { demon: 'Cataclysm', hz: '144hz' }
     },
     { 
         rank: 2, flagText: 'IT', name: 'robZeph', score: '185', state: 'ITALY',
@@ -13,16 +13,16 @@ const playersData =[
         hardest: { demon: 'B', hz: '240hz' }
     },
     { 
-        rank: 4, flagText: 'IT', name: 'UniversoMC', score: '75', state: 'ITALY',
-        hardest: { demon: 'Skeletal Shenanigans', hz: '165hz' }
+        rank: 4, flagText: 'IT', name: 'zleemm', score: '80', state: 'ITALY',
+        hardest: { demon: 'FlashBang', hz: '144hz' }
     },
      { 
-        rank: 5, flagText: 'IT', name: 'zleemm', score: '70', state: 'ITALY',
-        hardest: { demon: 'FlashBang', hz: '144hz' }
+        rank: 5, flagText: 'IT', name: 'UniversoMC', score: '75', state: 'ITALY',
+        hardest: { demon: 'Skeletal Shenanigans', hz: '165hz' }
     },
     { 
         rank: 6, flagText: 'IT', name: 'b0bX2', score: '30', state: 'ITALY',
-        hardest: { demon: 'Platinum Adventure', hz: '360hz' }
+        hardest: { demon: 'FlashBang', hz: '360hz' }
     },
     { 
         rank: 7, flagText: 'IT', name: 'mainsciamn', score: 'DISQUALIFIED FOR BEING LEADERBOARD BANNED', state: 'ITALY',
