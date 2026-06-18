@@ -14,7 +14,7 @@ const playersData =[
     },
     { 
         rank: 4, flagText: 'IT', name: 'mainsciamn', score: '85', state: 'ITALY',
-        hardest: { demon: 'B', hz: '165hz' }
+        hardest: { demon: 'B', hz: '160hz' }
     },
      { 
         rank: 5, flagText: 'IT', name: 'zleemm', score: '80', state: 'ITALY',
