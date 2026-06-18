@@ -13,20 +13,20 @@ const playersData =[
         hardest: { demon: 'B', hz: '240hz' }
     },
     { 
-        rank: 4, flagText: 'IT', name: 'zleemm', score: '80', state: 'ITALY',
-        hardest: { demon: 'FlashBang', hz: '144hz' }
+        rank: 4, flagText: 'IT', name: 'mainsciamn', score: '85', state: 'ITALY',
+        hardest: { demon: 'B', hz: '165hz' }
     },
      { 
-        rank: 5, flagText: 'IT', name: 'UniversoMC', score: '75', state: 'ITALY',
+        rank: 5, flagText: 'IT', name: 'zleemm', score: '80', state: 'ITALY',
+        hardest: { demon: 'FlashBang', hz: '144hz' }
+    },
+    { 
+        rank: 6, flagText: 'IT', name: 'UniversoMC', score: '75', state: 'ITALY',
         hardest: { demon: 'Skeletal Shenanigans', hz: '165hz' }
     },
     { 
-        rank: 6, flagText: 'IT', name: 'b0bX2', score: '30', state: 'ITALY',
+        rank: 7, flagText: 'IT', name: 'b0bX2', score: '30', state: 'ITALY',
         hardest: { demon: 'FlashBang', hz: '360hz' }
-    },
-    { 
-        rank: 7, flagText: 'IT', name: 'mainsciamn', score: 'DISQUALIFIED FOR BEING LEADERBOARD BANNED', state: 'ITALY',
-        hardest: { demon: 'DISQUALIFIED', hz: '165hz' }
     },
     
 ];
